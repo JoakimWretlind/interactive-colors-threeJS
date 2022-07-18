@@ -42,4 +42,8 @@ export const GlobalStyle = createGlobalStyle`
     ul, li {
       list-style: none;
     }
+    /* #canvas{
+      background-image: url("./pic_01.jpg");
+       background-position: center;
+    } */
 `;
