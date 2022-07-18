@@ -17,15 +17,16 @@ export const GlobalStyle = createGlobalStyle`
       box-sizing: border-box;
       font-family: 'Mulish', sans-serif;
     }
-    h1{
-      font-size: clamp(3rem, 3vw, 4rem);
-      white-space: nowrap;
+    h1{      
+      font-size: clamp(2rem, 3vw, 4rem);
       text-transform: capitalize;
+      text-align: center;
       font-weight: 500;
       letter-spacing: .5rem;
       margin-bottom: 2rem;
       @media (min-width: 1000px){
-        margin: 0
+        margin: 0;
+        text-align: start;
       }
     }
 
